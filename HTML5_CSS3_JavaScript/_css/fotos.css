@@ -1,0 +1,119 @@
+@charset UTF-8;
+/* Formatação da lista para fotos */
+ul#album-fotos{
+	width: 700px;
+	margin: 0 auto;
+	padding: 50px;
+	overflow: hidden;
+	list-style: none;
+}
+/* Formatação para ficar um ao lado do outro*/
+ul#album-fotos li{
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	border: 5px solid white;
+	background-color: #ffffff;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+	-webkit-transition: all .4s ease-in; /* Faz um zoom out do ul#album-fotos li:hover ser mais lento*/
+}
+
+/* Formatação para span titulo da foto*/
+ul#album-fotos li span{
+	opacity: 0;
+	color: #ffffff;
+	text-shadow: 1px 1px 1px #000000;
+	background-color: rgba(0,0,0,.3);
+	font-size: 9pt;
+	line-height: 370px;
+	padding: 5px;
+}
+/* Formatação para span titulo da foto ao passar o mouse*/
+ul#album-fotos li:hover span{
+	opacity: 1;
+}
+
+/* Formatação para li ao passar o mouse na foto*/
+ul#album-fotos li:hover{
+	-webkit-transform: scale(1.5); /* Faz um zoom out*/
+}
+
+/* Formatação para foto01*/
+ul#album-fotos li#foto01{
+	background: url('../_imagens/galeria-01.jpg') no-repeat;
+	background-position: 50% 50%; /* posição do meio da imagem dentro do li*/
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+/* Formatação para foto01 efeito zoom ao passar o mouse*/
+ul#album-fotos li#foto01:hover{
+	background-position: 0px 0px; /* voltar a parte de cima da imagem dentro do li*/
+	background-size: 200px 200px; /* voltar ao normal a imagem dentro do li*/
+}
+
+/* Formatação para foto02*/
+ul#album-fotos li#foto02{
+	background: url('../_imagens/galeria-02.jpg') no-repeat;
+	background-position: 50% 50%; /* posição do meio da imagem dentro do li*/
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+/* Formatação para foto02 efeito zoom ao passar o mouse*/
+ul#album-fotos li#foto02:hover{
+	background-position: 0px 0px; /* voltar a parte de cima da imagem dentro do li*/
+	background-size: 200px 200px; /* voltar ao normal a imagem dentro do li*/
+}
+
+/* Formatação para foto03*/
+ul#album-fotos li#foto03{
+	background: url('../_imagens/galeria-03.jpg') no-repeat;
+	background-position: 50% 50%; /* posição do meio da imagem dentro do li*/
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+/* Formatação para foto03 efeito zoom ao passar o mouse*/
+ul#album-fotos li#foto03:hover{
+	background-position: 0px 0px; /* voltar a parte de cima da imagem dentro do li*/
+	background-size: 200px 200px; /* voltar ao normal a imagem dentro do li*/
+}
+	
+/* Formatação para foto04*/
+ul#album-fotos li#foto04{
+	background: url('../_imagens/galeria-04.jpg') no-repeat;
+	background-position: 50% 50%; /* posição do meio da imagem dentro do li*/
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+/* Formatação para foto04 efeito zoom ao passar o mouse*/
+ul#album-fotos li#foto04:hover{
+	background-position: 0px 0px; /* voltar a parte de cima da imagem dentro do li*/
+	background-size: 200px 200px; /* voltar ao normal a imagem dentro do li*/
+}
+	
+/* Formatação para foto05*/
+ul#album-fotos li#foto05{
+	background: url('../_imagens/galeria-05.jpg') no-repeat;
+	background-position: 50% 50%; /* posição do meio da imagem dentro do li*/
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+/* Formatação para foto05 efeito zoom ao passar o mouse*/
+ul#album-fotos li#foto05:hover{
+	background-position: 0px 0px; /* voltar a parte de cima da imagem dentro do li*/
+	background-size: 200px 200px; /* voltar ao normal a imagem dentro do li*/
+}
+	
+/* Formatação para foto06*/
+ul#album-fotos li#foto06{
+	background: url('../_imagens/galeria-06.jpg') no-repeat;
+	background-position: 50% 50%; /* posição do meio da imagem dentro do li*/
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+/* Formatação para foto06 efeito zoom ao passar o mouse*/
+ul#album-fotos li#foto06:hover{
+	background-position: 0px 0px; /* voltar a parte de cima da imagem dentro do li*/
+	background-size: 200px 200px; /* voltar ao normal a imagem dentro do li*/
+}
+	

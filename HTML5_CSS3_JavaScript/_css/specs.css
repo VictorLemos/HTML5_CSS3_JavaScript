@@ -1,0 +1,17 @@
+@charset UTF-8;
+/* Formatação do conteudo */
+section#conteudo{
+	width: 1000px;
+	margin: auto;
+}
+/* Formatação do iframe */
+iframe#frame-spec{
+	width: 400px;
+	height: 280px;
+	border: none;
+	overflow: hidden;
+}
+/* configuração de webkit do iframe tirar o scroll*/
+iframe#frame-spec::-webkit-scrollbar{
+	display: none;
+}
